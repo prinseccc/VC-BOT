@@ -506,12 +506,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/PRIN_SECC"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/BAPPA_LOVERSS"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Ak_Dukhi_Aatma"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -557,12 +557,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/PRIN_SECC"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/BAPPA_LOVERSS"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Ak_Dukhi_Aatma"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -592,7 +592,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}](https://youtube.com{results[j]['url_suffix']})...\n"
                 toxxt += f" ├ 💡 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └ ⚡ __Powered by 🎧⋆ 𝙀𝙇𝙧𝙞𝙭 ✘ 𝙈𝙪𝙨𝙞𝙘 ⋆🎧 A.I__\n\n"
+                toxxt += f" └ ⚡ __Powered by 『𝙿𝚁𝙸𝙽_𝚂𝙴𝙲𝙲 𝙼𝚄𝚂𝙸𝙲』 A.I__\n\n"
 
                 j += 1            
             keyboard = InlineKeyboardMarkup(
@@ -645,12 +645,12 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/PRIN_SECC"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/BAPPA_LOVERSS"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Ak_Dukhi_Aatma"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -709,7 +709,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ElrixXMusic"
+        user.first_name = "『𝙿𝚁𝙸𝙽_𝚂𝙴𝙲𝙲 𝙼𝚄𝚂𝙸𝙲』"
     usar = user
     wew = usar.id
     try:
@@ -791,12 +791,12 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/PRIN_SECC"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/BAPPA_LOVERSS"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Ak_Dukhi_Aatma"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -855,7 +855,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ElrixXMusic"
+        user.first_name = "『𝙿𝚁𝙸𝙽_𝚂𝙴𝙲𝙲 𝙼𝚄𝚂𝙸𝙲』"
     usar = user
     wew = usar.id
     try:
@@ -933,7 +933,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="📍 Channel", url="https://t.me/Sanki_BOTs")],
+            [InlineKeyboardButton(text="📍 Channel", url="https://t.me/PRIN_SECC")],
         ]
     )
     file_path = await converter.convert(wget.download(url))
@@ -1031,12 +1031,12 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/PRIN_SECC"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/BAPPA_LOVERSS"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Ak_Dukhi_Aatma"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
