@@ -446,7 +446,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls"),
                 ],
-                [InlineKeyboardButton(text="🎧 Channel", url=f"https://t.me/Sanki_BOTs")],
+                [InlineKeyboardButton(text="🎧 Channel", url=f"https://t.me/PRIN_SECC")],
             ]
         )
         file_name = get_file_name(audio)
@@ -493,7 +493,7 @@ async def play(_, message: Message):
                   InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                   InlineKeyboardButton("🗑 Close", callback_data="ccls")
               ],[
-                  InlineKeyboardButton("🎧 Channel", url=f"https://t.me/Sanki_BOTs")
+                  InlineKeyboardButton("🎧 Channel", url=f"https://t.me/PRIN_SECC")
               ]
           ]
         )
@@ -535,7 +535,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls")
                 ],[
-                    InlineKeyboardButton("🎧 Channel", url=f"https://t.me/Sanki_BOTs")
+                    InlineKeyboardButton("🎧 Channel", url=f"https://t.me/PRIN_SECC")
                 ]
             ]
         )
