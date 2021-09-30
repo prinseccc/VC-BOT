@@ -31,11 +31,11 @@ async def stream(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/Dramaa_Club"),
+                        text="Support",
+                        url=f"https://t.me/PRIN_SECC"),
                     InlineKeyboardButton(
-                        text="ᴄʜᴀɴɴᴇʟ​",
-                        url=f"https://t.me/Sanki_BOTs")
+                        text="UPDATEDS",
+                        url=f"https://t.me/Ak_Dukhi_Aatma")
                 ]
             ]
         )
