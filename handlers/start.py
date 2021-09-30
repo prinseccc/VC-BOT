@@ -33,25 +33,25 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>📌 **Holla, {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/ElrixXBot) I Am A Voice Call Group Music Player. For Info On How To Use Me, You Can Type /help**
+💭 **[{BOT_NAME}](https://t.me/PRINSECC_VC_ROBOT) I Am A Voice Call Group Music Player. For Info On How To Use Me, You Can Type /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url=f"https://t.me/ElrixXBot?startgroup=true")
+                        "➕ Add Me To Your Group ➕", url=f"https://t.me/PRINSECC_VC_ROBOT?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                         "Commands", url="https://telegra.ph/%F0%9D%99%80%F0%9D%99%87%F0%9D%99%A7%F0%9D%99%9E%F0%9D%99%AD--%F0%9D%99%88%F0%9D%99%AA%F0%9D%99%A8%F0%9D%99%9E%F0%9D%99%98-09-03-2"
+                         "Commands", url="https://telegra.ph/%F0%9D%99%BF%F0%9D%9A%81%F0%9D%99%B8%F0%9D%99%BD-%F0%9D%9A%82%F0%9D%99%B4%F0%9D%99%B2%F0%9D%99%B2-%F0%9D%99%BC%F0%9D%9A%84%F0%9D%9A%82%F0%9D%99%B8%F0%9D%99%B2-09-30"
                     ),
                     InlineKeyboardButton(
-                        "Donate", url=f"https://t.me/Oo_Elrix")
+                        "Donate", url=f"https://t.me/Ak_Dukhi_Aatma")
                 ],[
                     InlineKeyboardButton(
-                        "Official Group", url=f"https://t.me/Dramaa_Club"
+                        "Official Group", url=f"https://t.me/PRIN_SECC"
                     ),
                     InlineKeyboardButton(
-                        "Official Channel", url=f"https://t.me/Sanki_BOTs")
+                        "Official Channel", url=f"https://t.me/BAPPA_LOVERSS")
                 ]
             ]
         ),
@@ -70,10 +70,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url=f"https://t.me/Dramaa_Club"
+                        "Support", url=f"https://t.me/PRIN_SECC"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url=f"https://t.me/Sanki_BOTs"
+                        "Channel", url=f"https://t.me/Ak_Dukhi_Aatma"
                     )
                 ]
             ]
@@ -88,7 +88,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="❔ HOW TO USE ME", url=f"https://t.me/ElrixXBot?start=help"
+                        text="❔HOW TO USE ME", url=f"https://t.me/PRINSECC_VC_ROBOT?start=help"
                     )
                 ]
             ]
@@ -102,7 +102,7 @@ async def help_(client: Client, message: Message):
 \n📌HOW TO USE ME ?
 \n1. first add me to your group.
 2. promote me as admin and give all permission.
-3. then, add @ElrixXAssistant to your group or type /userbotjoin.
+3. then, add @PRINSECC_MUSIC_2 to your group or type /userbotjoin.
 3. make sure you turn on the voice chat first before start playing music.
 \n📌**commands for all user:**
 \n/play (song name) - play song from youtube
@@ -141,15 +141,15 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "GROUP", url=f"https://t.me/Dramaa_Club"
+                        "SUPPORT", url=f"https://t.me/PRIN_SECC"
                     ),
                     InlineKeyboardButton(
-                        "CHANNEL", url=f"https://t.me/Sanki_BOTs"
+                        "CHANNEL", url=f"https://t.me/BAPPA_LOVERSS"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "DEVELOPER", url=f"https://t.me/Oo_Elrix"
+                        "DEVELOPER", url=f"https://t.me/Ak_Dukhi_Aatma"
                     )
                 ]
             ]
